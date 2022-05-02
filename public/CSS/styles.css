@@ -1,0 +1,473 @@
+/*Para todo el HTML*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------*/
+/*Para elementos principales*/
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+    margin: 0%;
+    padding: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffff;
+
+}
+
+/*----------------------------------*/
+/*HEADER*/
+
+.logo {
+    max-width: 250px;
+    display: inline-flex;
+}
+
+.search {
+    margin-bottom: 2px;
+    padding: 6px 1px 7px;
+    display: inline-block;
+    font-size: 10px;
+    border: solid white;
+    width: 60%;
+}
+
+div.lupa {
+    color: #03264C;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border: solid white 2.5px;
+    padding: 4px 1px 7px;
+    vertical-align: baseline;
+    margin-left: -4px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.fa-solid fa-hand-holding-dollar {
+    display: inline;
+    font-size: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.frase {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+    max-width: 350px;
+    color: rgba(51, 51, 51, .9);
+}
+
+.barraNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 15px;
+    color: rgba(51, 51, 51, .6);
+}
+
+.barraNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barraNav li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.barraNav a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, .6);
+    display: inline-block;
+    font-size: 14px;
+    align-items: baseline;
+    margin: 0 4px;
+    font-weight: 300;
+}
+
+.barraNav a:hover {
+    color: rgba(51, 51, 51, .8);
+}
+
+.burguer-menu {
+    background-color: #1259c3;
+    color: white;
+    width: 0 auto;
+    padding: 6px 8px;
+    display: none;
+    margin: 15px;
+    border-radius: 8px;
+    border: solid #1259c3 1px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+
+
+p {
+    font-size: 12px;
+}
+
+/*----------------------------------*/
+/*MAIN*/
+
+section {
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+article {
+    margin: 10px 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    max-width: 290px;
+}
+
+.card-body {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+    display: inline-block;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.fa-truck {
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    bottom: 53px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.precios {
+    font-size: 18px;
+    display: inline;
+    margin-left: -20px;
+    width: 22%;
+}
+
+.descuentos {
+    font-size: 16px;
+    display: inline;
+    width: 64%;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #39b54a;
+    display: none;
+}
+
+/*----------------------------------*/
+/*FOOTER*/
+
+.footer-icon {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+  
+}
+
+.legales {
+    padding: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.titulo-footer {
+    color: grey;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-footer {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*----------------------------------*/
+/*FORMULARIOS*/
+
+.formulario {
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    width: 98%;
+}
+
+.formulario h2 {
+    text-align: left;
+    margin: 2px;
+}
+
+.formulario input {
+    padding: 7px 6px;
+    margin: 7px 7px;
+    border-radius: 5px;
+ 
+    
+}
+
+.formulario input:focus {
+    color: #03264C;
+  
+
+}
+
+.formulario button {
+    background-color: #1259c3;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 9px 16px;
+    margin: 0 5px;
+}
+
+.formulario button a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    text-align: center;
+  
+}
+
+.resetButton:hover,
+.sendButton:hover {
+    box-sizing: border-box;
+    background-color: #3049b1;
+    font-weight:bold
+}
+
+.crearPerfil,
+.irALogin {
+    text-decoration: none;
+    color: #3049b1 ;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+/*nuevo mio*/
+.crearPerfil:hover,
+.irALogin:hover {
+    font-weight:bold;
+    background-color: rgb(164, 190, 224);
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin: 0px;
+    ;
+}
+
+/*----------------------------------*/
+/*RESPONSIVES*/
+/*Celular*/
+
+@media (min-width: 320px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-navbar {
+        display: none;
+    }
+
+    .burguer-menu {
+        display: inline-block;
+    }
+
+    .descripciones {
+        display: none;
+    }
+   
+    
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) {
+    
+    .main-header {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search {
+        width: 330px;
+        margin-left: 15px;
+        padding: 6px 10px 7px;
+        font-size: 13px;
+    }
+
+    .lupa {
+        border: solid white 1px;
+        padding: 7px 1px 8px;
+        vertical-align: baseline;
+        margin-left: -4px;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .descripciones {
+        display: none;
+    }
+
+    .card:hover .descripciones {
+        display: block
+    }
+
+}
+
+/*desktop*/
+
+@media (min-width: 1024px) {
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 600px;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .search {
+        width: 405px;
+        margin-left: 55px;
+        padding: 6px 10px 7px;
+        font-size: 13px;
+    }
+
+    .lupa {
+        border: solid white 1px;
+        padding: 7px 1px 8px;
+        vertical-align: baseline;
+        margin-left: -4px;
+    }
+
+    .card:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: 0.5s;
+    }
+
+    .card:hover .descripciones {
+        display: block;
+    }
+
+    .fa-truck:hover {
+        transition: 0.5s;
+        transform: rotate(-90deg);
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 12px;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+
+    .footer-icon:hover {
+        color: #3049b1;
+    animation-name: iconofooter;
+    animation-duration:500ms;
+    animation-direction:normal;
+    }
+
+    @keyframes iconofooter {
+        0%{font-size: 2em;}
+        100%{font-size: 2.3em;}
+
+    }
+
+
+}
+
+
